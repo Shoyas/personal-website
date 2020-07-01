@@ -128,4 +128,5 @@ footer h6{
 }
 #before-footer{
     height: 100px;
+    background-image: url(../images/header-bg.png);
 }
