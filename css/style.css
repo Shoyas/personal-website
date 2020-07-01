@@ -32,14 +32,14 @@ a{
     background-image: linear-gradient(45deg, #FFC420, #ffff);
     font-size: 25px;
     padding: 2.5%;
-    border-radius: 4%;
+    border-radius: 5px;
 
 }
 .click-button:hover{
     background-image: none;
     border-bottom: 2px solid #FF2379;
     transition: 1s;
-    border-radius: 15%;
+    border-radius: 15px;
     box-shadow: 10px 10px 40px gray;
 }
 
@@ -66,7 +66,7 @@ a{
 
 section{
     height: 500px;
-    padding-bottom: 230px;
+    padding-bottom: 250px;
 }
 .line-heighlight{
     font-weight: 900;
@@ -90,25 +90,42 @@ section{
     background-image: url(../images/footer-bg.png);
 }
 .client-say{
-    padding-top: 360px;
+    padding-top: 300px;
     
 }
 .client-adress{
     font-size: 15px;
     width: 50%;
-    padding: 0px 332px;
+    margin: auto;
     
+    
+}
+#woner{
+    font-weight: 200;
+    font-size: 15px;
+    color: gray;
 }
 .contact{
     text-decoration: none;
-    color: #FF1A73;
+    color: #ffff;
     background-color: #FFC420;
     font-size: 25px;
     padding: 2.5%;
     width: 50%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
     
 }
-.footer{
+.contact a{
+    color: #ffff;
+}
+
+footer h6{
     text-align: center;
+    color: gray;
    
+}
+#before-footer{
+    height: 100px;
 }
